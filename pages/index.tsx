@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Hero from "../components/Hero";
+import Body from '../components/Body';
 
 export default function Home() {
   return (
@@ -14,7 +15,8 @@ export default function Home() {
       <div className='bg-bgcolor-500'>
         <Hero /> 
       </div>
-      fdfds
+
+      <Body />
 
       <footer >
         
