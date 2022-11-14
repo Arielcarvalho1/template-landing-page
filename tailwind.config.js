@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         "bgcolor": {
           500: "#BF5060"
+        },
+        "bgfooter": {
+          500: "#4D4957"
         }
       }
     },

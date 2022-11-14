@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Hero from "../components/Hero";
 import Body from '../components/Body';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -16,7 +17,10 @@ export default function Home() {
         <Hero /> 
       </div>
 
+
       <Body />
+
+      <Footer />
 
       <footer >
         
